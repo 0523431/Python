@@ -48,7 +48,7 @@ print("i 문자의 개수 =", a.count("i"))
 print()
 
 print("l 문자의 위치 =", a.find("l"))
-print("i 문자의 우치 =", a.find("i")) # 없을 경우 : -1 출력
+print("i 문자의 위치 =", a.find("i")) # 없을 경우 : -1 출력
 print()
 
 print("l 문자의 위치 =", a.index("l"))
