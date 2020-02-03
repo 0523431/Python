@@ -29,6 +29,7 @@ for workbook in all_workbooks :
         data_frames.append(data)
         
 # all_data_concat : 모든 엑셀파일의 data를 저장
+# axit=0 : row로 붙여서 출력
 all_data_concat = pandas.concat(data_frames, sort=False, axis=0, ignore_index=True)
 
 writer = pandas.ExcelWriter(outputFile)
